@@ -1,0 +1,32 @@
+/* src/styles/global.css */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #fafafa;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00796b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark a {
+  color: #80cbc4;
+}

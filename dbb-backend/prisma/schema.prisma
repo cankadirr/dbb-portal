@@ -21,3 +21,11 @@ model Duyuru {
   content String
   date    DateTime @default(now())
 }
+
+model ihale {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String
+  date        DateTime @default(now())
+}
+
